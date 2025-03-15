@@ -1,0 +1,15 @@
+-d /home/xiaguangbo/linux/project/unifiedprocessor/program_gw2arlv18qn88c817/project/impl/gwsynthesis/project.vg
+-p GW2AR-18C-QFN88-8
+-pn GW2AR-LV18QN88C8/I7
+-cst /home/xiaguangbo/linux/project/unifiedprocessor/program_gw2arlv18qn88c817/project/src/project.cst
+-cfg /home/xiaguangbo/linux/project/unifiedprocessor/program_gw2arlv18qn88c817/project/impl/pnr/device.cfg
+-sdc /home/xiaguangbo/linux/project/unifiedprocessor/program_gw2arlv18qn88c817/project/src/project.sdc
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-convert_sdp32_36_to_sdp16_18
+-correct_hold 1
+-route_maxfan 23
+-global_freq 100.000

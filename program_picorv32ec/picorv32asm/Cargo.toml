@@ -1,0 +1,7 @@
+[package]
+name = "picorv32asm"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+picorv32entrymacro = { path = "picorv32entrymacro"}

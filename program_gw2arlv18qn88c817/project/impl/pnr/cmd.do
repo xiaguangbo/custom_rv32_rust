@@ -1,9 +1,9 @@
--d /home/xiaguangbo/linux/project/unifiedprocessor/program_gw2arlv18qn88c817/project/impl/gwsynthesis/project.vg
+-d /home/xiaguangbo/linux/project/custom_rv32_rust/program_gw2arlv18qn88c817/project/impl/gwsynthesis/project.vg
 -p GW2AR-18C-QFN88-8
 -pn GW2AR-LV18QN88C8/I7
--cst /home/xiaguangbo/linux/project/unifiedprocessor/program_gw2arlv18qn88c817/project/src/project.cst
--cfg /home/xiaguangbo/linux/project/unifiedprocessor/program_gw2arlv18qn88c817/project/impl/pnr/device.cfg
--sdc /home/xiaguangbo/linux/project/unifiedprocessor/program_gw2arlv18qn88c817/project/src/project.sdc
+-cst /home/xiaguangbo/linux/project/custom_rv32_rust/program_gw2arlv18qn88c817/project/src/project.cst
+-cfg /home/xiaguangbo/linux/project/custom_rv32_rust/program_gw2arlv18qn88c817/project/impl/pnr/device.cfg
+-sdc /home/xiaguangbo/linux/project/custom_rv32_rust/program_gw2arlv18qn88c817/project/src/project.sdc
 -bit
 -tr
 -ph

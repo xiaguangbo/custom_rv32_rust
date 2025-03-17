@@ -3,20 +3,14 @@
 version = 4
 
 [[package]]
-name = "panic-halt"
-version = "1.0.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a513e167849a384b7f9b746e517604398518590a9142f4846a32e3c2a4de7b11"
-
-[[package]]
-name = "picorv32asm"
+name = "picorv32"
 version = "0.1.0"
 dependencies = [
- "picorv32entrymacro",
+ "picorv32macro",
 ]
 
 [[package]]
-name = "picorv32entrymacro"
+name = "picorv32macro"
 version = "0.1.0"
 dependencies = [
  "proc-macro2",
@@ -37,8 +31,7 @@ dependencies = [
 name = "project"
 version = "0.1.0"
 dependencies = [
- "panic-halt",
- "picorv32asm",
+ "picorv32",
 ]
 
 [[package]]

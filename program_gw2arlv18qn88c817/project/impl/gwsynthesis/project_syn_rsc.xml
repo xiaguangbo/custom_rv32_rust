@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Module name="entry" Register="11" Lut="22" Bsram="8" T_Register="474(11)" T_Alu="248(0)" T_Lut="1479(22)" T_Bsram="8(8)" T_Ssram="8(0)">
+<Module name="main" Register="11" Lut="22" Bsram="8" T_Register="474(11)" T_Alu="248(0)" T_Lut="1479(22)" T_Bsram="8(8)" T_Ssram="8(0)">
  <SubModule name="picorv32_core" Register="463" Alu="248" Lut="1457" Ssram="8" T_Register="463(463)" T_Alu="248(248)" T_Lut="1457(1457)" T_Ssram="8(8)"/>
 </Module>

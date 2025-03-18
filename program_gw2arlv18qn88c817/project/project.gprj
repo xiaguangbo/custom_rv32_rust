@@ -9,5 +9,6 @@
         <File path="src/picorv32.v" type="file.verilog" enable="1"/>
         <File path="src/project.cst" type="file.cst" enable="1"/>
         <File path="src/project.sdc" type="file.sdc" enable="1"/>
+        <File path="src/project.rao" type="file.gao" enable="0"/>
     </FileList>
 </Project>

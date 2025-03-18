@@ -1,8 +1,5 @@
 [build]
 target = "riscv32ec-unknown-none-elf.json"
 
-[target."riscv32ec-unknown-none-elf"]
-runner = "objcopy -O ihex"
-
 [unstable]
 build-std = ["core"]

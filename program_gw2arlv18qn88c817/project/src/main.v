@@ -1,8 +1,8 @@
 `timescale 1 ns / 1 ps
 
 module main (
-    input clk,  // 输入时钟
-    input            resetn, // 输入复位(Tang Nano 20K按键按下后为高,松开为低,所以实际逻辑会取反!)
+    input  clk,  // 输入时钟
+    input  resetn, // 输入复位(Tang Nano 20K按键按下后为高,松开为低,所以实际逻辑会取反!)
     output trap,  // 陷阱(执行了不被支持的东西,处理器故障!)
     output reg [7:0] out_byte,  // 数据输出
     output reg out_byte_en  // 当前out_byte有效
@@ -39,7 +39,7 @@ module main (
     );
 
     reg [31:0] memory[0:MEM_SIZE-1]; // 存放 cpu 程序
-    initial $readmemh("project", memory);  // 融合固件
+    initial $readmemh("project.hex", memory);  // 融合固件
 
     reg [31:0] m_read_data;
     reg m_read_en;

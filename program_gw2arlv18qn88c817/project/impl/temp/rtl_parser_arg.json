@@ -2,11 +2,11 @@
  "Device" : "GW2AR-18C",
  "Files" : [
   {
-   "Path" : "/home/xiaguangbo/linux/project/custom_rv32_rust/program_gw2arlv18qn88c817/project/src/picorv32.v",
+   "Path" : "/home/xiaguangbo/linux/project/custom_rv32_rust/program_gw2arlv18qn88c817/project/src/main.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "/home/xiaguangbo/linux/project/custom_rv32_rust/program_gw2arlv18qn88c817/project/src/main.v",
+   "Path" : "/home/xiaguangbo/linux/project/custom_rv32_rust/program_gw2arlv18qn88c817/project/src/picorv32.v",
    "Type" : "verilog"
   }
  ],
@@ -15,7 +15,7 @@
  ],
  "LoopLimit" : 2000,
  "ResultFile" : "/home/xiaguangbo/linux/project/custom_rv32_rust/program_gw2arlv18qn88c817/project/impl/temp/rtl_parser.result",
- "Top" : "",
+ "Top" : "main",
  "VerilogStd" : "verilog_2001",
  "VhdlStd" : "vhdl_93"
 }

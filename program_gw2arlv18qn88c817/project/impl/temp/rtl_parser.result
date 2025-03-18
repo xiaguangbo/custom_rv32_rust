@@ -1,5 +1,23 @@
 [
  {
+  "InstFile" : "/home/xiaguangbo/linux/project/custom_rv32_rust/program_gw2arlv18qn88c817/project/src/main.v",
+  "InstLine" : 3,
+  "InstName" : "main",
+  "ModuleFile" : "/home/xiaguangbo/linux/project/custom_rv32_rust/program_gw2arlv18qn88c817/project/src/main.v",
+  "ModuleLine" : 3,
+  "ModuleName" : "main",
+  "SubInsts" : [
+   {
+    "InstFile" : "/home/xiaguangbo/linux/project/custom_rv32_rust/program_gw2arlv18qn88c817/project/src/main.v",
+    "InstLine" : 28,
+    "InstName" : "picorv32_core",
+    "ModuleFile" : "/home/xiaguangbo/linux/project/custom_rv32_rust/program_gw2arlv18qn88c817/project/src/picorv32.v",
+    "ModuleLine" : 84,
+    "ModuleName" : "picorv32"
+   }
+  ]
+ },
+ {
   "InstFile" : "/home/xiaguangbo/linux/project/custom_rv32_rust/program_gw2arlv18qn88c817/project/src/picorv32.v",
   "InstLine" : 2219,
   "InstName" : "picorv32_regs",
@@ -44,24 +62,6 @@
    {
     "InstFile" : "/home/xiaguangbo/linux/project/custom_rv32_rust/program_gw2arlv18qn88c817/project/src/picorv32.v",
     "InstLine" : 2983,
-    "InstName" : "picorv32_core",
-    "ModuleFile" : "/home/xiaguangbo/linux/project/custom_rv32_rust/program_gw2arlv18qn88c817/project/src/picorv32.v",
-    "ModuleLine" : 84,
-    "ModuleName" : "picorv32"
-   }
-  ]
- },
- {
-  "InstFile" : "/home/xiaguangbo/linux/project/custom_rv32_rust/program_gw2arlv18qn88c817/project/src/main.v",
-  "InstLine" : 3,
-  "InstName" : "main",
-  "ModuleFile" : "/home/xiaguangbo/linux/project/custom_rv32_rust/program_gw2arlv18qn88c817/project/src/main.v",
-  "ModuleLine" : 3,
-  "ModuleName" : "main",
-  "SubInsts" : [
-   {
-    "InstFile" : "/home/xiaguangbo/linux/project/custom_rv32_rust/program_gw2arlv18qn88c817/project/src/main.v",
-    "InstLine" : 28,
     "InstName" : "picorv32_core",
     "ModuleFile" : "/home/xiaguangbo/linux/project/custom_rv32_rust/program_gw2arlv18qn88c817/project/src/picorv32.v",
     "ModuleLine" : 84,

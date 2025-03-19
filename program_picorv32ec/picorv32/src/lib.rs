@@ -8,13 +8,8 @@ global_asm!(
     "
     .section .init
 
-    /* set stack pointer */
-    la sp, _stack_start
+    la sp, _stack_top
 
-    /* call main */
     j main
-
-    /* break */
-    ebreak
     "
 );

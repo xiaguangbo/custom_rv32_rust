@@ -6,13 +6,13 @@ picorv32ec + rust
 
 ## base
 
-1. terminal_1 path at ~/linux/project/custom_rv32_rust/program_picorv32ec/project
+1. terminal_1 path at picorv32_and_rust/program_picorv32ec/project
 ```
 cargo build --release
 cp -f ./target/riscv32ec-unknown-none-elf/release/project ../../program_gw2arlv18qn88c817/project/src/project
 ```
 
-2. terminal_2 path at ~/linux/project/custom_rv32_rust/program_gw2arlv18qn88c817/project
+2. terminal_2 path at picorv32_and_rust/program_gw2arlv18qn88c817/project
 ```
 llvm-objcopy -O binary ./src/project ./src/project.bin
 python3 ./src/makehex.py ./src/project.bin 4096 > ./src/project.hex

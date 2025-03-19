@@ -1,4 +1,4 @@
-# custom_rv32_rust
+# picorv32_and_rust
 
 picorv32ec + rust
 

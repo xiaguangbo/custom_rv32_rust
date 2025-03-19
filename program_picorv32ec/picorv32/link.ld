@@ -6,23 +6,11 @@ MEMORY
 
 SECTIONS
 {
-    .text : ALIGN(4)
+    .text :
     {
         *(.init*)
         *(.text*)
-        *(.rodata*)
     } > FLASH
-
-    .data : ALIGN(4)
-    {
-        *(.data*)
-    } > RAM
-
-    .bss : ALIGN(4)
-    {
-        *(.bss*)
-        *(COMMON)
-    } > RAM
 
     .stack :
     {

@@ -15,7 +15,7 @@ pub fn main(_args: TokenStream, input: TokenStream) -> TokenStream {
     let stmts = f.block.stmts;
 
     quote!(
-        #[export_name = "main"]
+        #[unsafe(export_name = "main")]
         fn main() -> ! {
             #(#stmts)*
         }
